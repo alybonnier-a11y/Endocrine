@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SRNA Study Portal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #f4f6f8;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .quiz {
+            display: block;
+            padding: 15px;
+            margin: 10px 0;
+            background: white;
+            border-radius: 10px;
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            box-shadow: 0 2px 5px rgba(0,0,0,.1);
+        }
+
+        .quiz:hover {
+            background: #eef5ff;
+        }
+    </style>
+</head>
+<body>
+
+<h1>🩺 SRNA Study Portal</h1>
+
+<a class="quiz" href="endstoeltpract.html">
+    Endocrine Practice Exam
+</a>
+
+<a class="quiz" href="regional.html">
+    Regional Blocks Practice Exam
+</a>
+
+<!-- Add future quizzes below -->
+
+<a class="quiz" href="obstetrics.html">
+    Obstetrics Practice Exam
+</a>
+
+<a class="quiz" href="pharmacology.html">
+    Pharmacology Practice Exam
+</a>
+
+<a class="quiz" href="principles.html">
+    Principles Final Review
+</a>
+
+</body>
+</html>
